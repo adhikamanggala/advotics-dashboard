@@ -131,11 +131,11 @@ function MarketInsights() {
                             <XAxis dataKey="name"/>
                             <YAxis />
                             <Tooltip />
-                            <Legend />
                             <CartesianGrid stroke="#f5f5f5" />
                             <Bar dataKey="net" barSize={20} fill="#37B04C" />
                             <Bar dataKey="gross" barSize={20} fill="#289E45" />
                             <Line type="monotone" dataKey="net" stroke="#FFE854" />
+                            <Legend />
                         </ComposedChart>
                         </div>
                     </div>
