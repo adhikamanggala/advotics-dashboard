@@ -1,0 +1,347 @@
+.content {
+    background-color: #f7f7f7;
+    max-width: 100%;
+    width: 100%;
+    padding: 31px 32px 24px;
+}
+
+.content .dashboard-period-con {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.content .dashboard-period-con .dash-con {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content .dashboard-period-con .dashboard-text{
+    font-size: 40px;
+    color: #707070C4;
+    font-weight: 600;
+}
+
+.content .dashboard-period-con .period-tab{
+    width: 481px;
+    height: 48px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 17px 13px;
+    border: 0.5px solid #d2d2d2;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.2);
+}
+
+.content .dashboard-period-con .period-tab .period-icon{
+    object-fit: contain;
+    height: 22px;
+    margin-right: 10px;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.content .dashboard-period-con .period-tab .period-text {
+    font-size: 15px;
+    align-self: center;
+    padding-left: 20px;
+}
+
+
+.content .market-insight {
+    background-color: #37B04C;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 15px 0 15px;
+}
+
+.content .market-insight .market-con{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .market-insight .help-con{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .market-insight .market-text{
+    color: #ffffff;
+    align-self: center;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .market-insight .help-text{
+    color: #ffffff;
+    align-self: center;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.content .market-insight .help-con .help-icon {
+    object-fit: contain;
+    height: 20px;
+    align-self: center;
+    margin-right: 5px;
+}
+
+.content .sales-turnover-con {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content .sales-turnover-con .sales-turnover {
+    object-fit: contain;
+    height: 104px;
+    margin-top: 16px;
+}
+
+.content .chart-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.content .chart-con .charts .title-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.content .chart-con .charts1 .title-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.content .charts {
+    margin-top: 16px;
+    background-color: #ffffff;
+    padding: 24px 16px;
+    border: 0.5px solid #d2d2d2;
+    border-radius: 2px;
+    margin-right: 16px;
+}
+
+.content .charts1 {
+    margin-top: 16px;
+    background-color: #ffffff;
+    padding: 24px 16px;
+    border: 0.5px solid #d2d2d2;
+    border-radius: 2px;
+}
+
+.content .charts .chart-comp{
+    margin-top: 16px;
+}
+
+.period-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.period-table .close-icon {
+    object-fit: contain;
+    height: 30px;
+}
+
+.period-table .period-icon2 {
+    object-fit: contain;
+    height: 25px;
+    align-self: center;
+}
+
+.period-table .period-text2 {
+    font-size: 30px;
+    align-self: center;
+    color:#707070C4;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+button.apply-button {
+    height: 46px;
+    width: 146px;
+    background-color: #37B04C;
+    border: unset;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+/* ==============================Card 1=================================== */
+
+
+.content .charts .prod-card {
+    background-color: #FFE7BD;
+    height: 80px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.content .charts .prod-card .product-img{
+   object-fit: contain;
+   width: auto;
+   height: 100%;
+}
+
+.content .charts .prod-card .sub-card{
+    padding: 14px 17px 14px;
+    width: 100%;
+}
+
+.content .charts .prod-card .sub-card .price-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .charts .prod-card .sub-card .price-con .price-text{
+    font-size: 14px;
+}
+
+.content .charts .prod-card .sub-card .prod-text{
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+}
+
+/* ================================Card 2=============================== */
+
+.content .charts .prod-card2 {
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+    border: 0.5px solid #d2d2d2;
+    margin-top: 8px;
+}
+
+.content .charts .prod-card2 .product-img{
+    object-fit: contain;
+    width: auto;
+    height: 100%;
+ }
+ 
+ .content .charts .prod-card2 .sub-card{
+     padding: 11px 24px 11px;
+     width: 100%;
+ }
+ 
+ .content .charts .prod-card2 .sub-card .price-con{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .content .charts .prod-card2 .sub-card .price-con .price-text{
+     font-size: 12px;
+ }
+ 
+ .content .charts .prod-card2 .sub-card .prod-text{
+     font-size: 16px;
+     color: #000;
+     text-align: left;
+ }
+
+/* ================================================================ */
+
+.content .charts1 .prod-card {
+    background-color: #FFE7BD;
+    height: 80px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.content .charts1 .prod-card .product-img{
+   object-fit: contain;
+   width: auto;
+   height: 100%;
+}
+
+.content .charts1 .prod-card .sub-card{
+    padding: 14px 17px 14px;
+    width: 100%;
+}
+
+.content .charts1 .prod-card .sub-card .price-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .charts1 .prod-card .sub-card .price-con .price-text{
+    font-size: 14px;
+}
+
+.content .charts1 .prod-card .sub-card .prod-text{
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+}
+
+
+.content .charts1 .prod-card2 {
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+    border: 0.5px solid #d2d2d2;
+    margin-top: 8px;
+}
+
+.content .charts1 .prod-card2 .product-img{
+    object-fit: contain;
+    width: auto;
+    height: 100%;
+ }
+ 
+ .content .charts1 .prod-card2 .sub-card{
+     padding: 11px 24px 11px;
+     width: 100%;
+ }
+ 
+ .content .charts1 .prod-card2 .sub-card .price-con{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .content .charts1 .prod-card2 .sub-card .price-con .price-text{
+     font-size: 12px;
+ }
+ 
+ .content .charts1 .prod-card2 .sub-card .prod-text{
+     font-size: 16px;
+     color: #000;
+     text-align: left;
+ }
+
+button.rdrStaticRange {
+    color: #000 !important;
+}
+
+button.rdrStaticRange.rdrStaticRangeSelected {
+    color: #37B04C !important;
+    font-weight: bolder !important;
+}
+
+.rdrDayToday .rdrDayNumber span:after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 18px;
+    height: 2px;
+    border-radius: 2px;
+    background: #37B04C;
+}
+
+
+
+
